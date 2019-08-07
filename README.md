@@ -38,7 +38,7 @@ If you want to update README.md file, run that script while being in 'hooks' fol
 | additional\_version\_weights | A map that defines the proportion of events that should be sent to different versions of a lambda function. | map | `<map>` | no |
 | description | Description of the alias | string | `""` | no |
 | function\_name | The function ARN of the Lambda function for which you want to create an alias. | string | n/a | yes |
-| function\_version | Lambda function version for which you are creating the alias. Pattern: (LATEST|[0-9]+). | string | n/a | yes |
+| function\_version | Lambda function version for which you are creating the alias. Pattern: (LATEST[0-9]+). | string | n/a | yes |
 | name | Name for the alias you are creating. Pattern: (?!^[0-9]+$)([a-zA-Z0-9-_]+) | string | n/a | yes |
 | routing\_config | The Lambda alias' route configuration settings. Fields documented below | map | `<map>` | no |
 
