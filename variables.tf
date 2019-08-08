@@ -16,7 +16,7 @@ variable "function_name" {
 
 variable "function_version" {
   type        = "string"
-  description = "Lambda function version for which you are creating the alias. Pattern: (LATEST|[0-9]+)."
+  description = "Lambda function version for which you are creating the alias. Pattern: (LATEST[0-9]+)."
 }
 
 variable "routing_config" {
